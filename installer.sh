@@ -31,7 +31,7 @@ clone_repo(){
             fi
             return
     fi
-    echo -e "Cloning FakeUbot ${BRANCH}... "
+    echo -e "Cloning Fake-Ubot ${BRANCH}... "
     git clone -b $BRANCH $REPO $DIR
 }
 
