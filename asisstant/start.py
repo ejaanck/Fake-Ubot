@@ -131,7 +131,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(ayra_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@jxsupport**"
+        msg += "\n\n• Powered by **@keysupport1**"
     await event.edit(
         msg,
         buttons=[Button.inline("Tutup", data="closeit")],
@@ -222,7 +222,7 @@ async def ayra(event):
 @callback("stat", owner=True)
 async def botstat(event):
     ok = len(get_all_users("BOT_USERS"))
-    msg = """Fake-Ubot Assistant - Stats
+    msg = """Key-Userbot Assistant - Stats
 Total Users - {}""".format(
         ok,
     )
@@ -298,4 +298,4 @@ async def timezone_(event):
             await conv.send_message(
                 "Wrong TimeZone, Try again",
                 buttons=get_back_button("mainmenu"),
-            )
+)
