@@ -13,14 +13,14 @@ from . import *
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/KojiraReyyAnata/Key-Userbot"),
-        Button.url("• Support •", url="t.me/keysupport1"),
+        Button.url("• Repo •", url="https://github.com/ejaanck/Fake-Ubot"),
+        Button.url("• Support •", url="t.me/jxsupport),
     ],
 ]
 
 ofox = "https://graph.org/file/231f0049fcd722824f13b.jpg"
 gugirl = "https://graph.org/file/0df54ae4541abca96aa11.jpg"
-aypic = "https://telegra.ph//file/8675e75ef634fce0b8102.jpg"
+aypic = "https://graph.org/file/b6621b343e748f680b94b.jpg"
 
 apis = [
     "QUl6YVN5QXlEQnNZM1dSdEI1WVBDNmFCX3c4SkF5NlpkWE5jNkZV",
@@ -33,11 +33,11 @@ apis = [
 async def repo(e):
     res = [
         await e.builder.article(
-            title="Key Userbot",
+            title="Fake Ubot",
             description="Userbot | Telethon",
             thumb=wb(aypic, 0, "image/jpeg", []),
-            text="**◈ Key ꭙ Userbot ◈**",
+            text="**◈ Fake ꭙ Ubot ◈**",
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="Key-Userbot", switch_pm_param="start")
+    await e.answer(res, switch_pm="Fake-Ubot", switch_pm_param="start")
