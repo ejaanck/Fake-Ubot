@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/jonesroot/Key-Userbot.git"
-DIR="/root/jonesroot"
+REPO="https://github.com/ejaanck/Fake-Ubot.git"
+DIR="/root/ejaanck"
 
 spinner(){
     local pid=$!
@@ -31,7 +31,7 @@ clone_repo(){
             fi
             return
     fi
-    echo -e "Cloning Key-Userbot ${BRANCH}... "
+    echo -e "Cloning FakeUbot ${BRANCH}... "
     git clone -b $BRANCH $REPO $DIR
 }
 
