@@ -117,4 +117,4 @@ Key-Userbot is licensed under [GNU Affero General Public License](https://www.gn
 * [MarshalX](https://github.com/MarshalX) for [PyTgCalls.](https://github.com/MarshalX/tgcalls)
 
 > Recode By
-* [![Jaa.](https://img.shields.io/static/v1?label=Jaa&message=M&color=critical)](https://t.me/jaahilang)
+* [![Jaa.](https://img.shields.io/static/v1?label=Jaa&message=MODDER&color=critical)](https://t.me/jaahilang)
