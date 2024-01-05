@@ -41,9 +41,9 @@ async def gcast(event):
         msg = await event.get_reply_message()
     else:
         return await eor(
-            event.eor("**`Kiw Jomblo..`")
+            event.eor("`Masukin Kata Kata Hari Ini..`")
         )
-    kk = await event.eor("`SABAR LAGI CARI JODOH BUAT LU`")
+    kk = await event.eor("`SABAR LAGI NGIRIM KATA KATA HARI INI`")
     er = 0
     done = 0
     err = ""
@@ -70,7 +70,7 @@ async def gcast(event):
                 except BaseException as h:
                     err += f"• {str(h)}" + "\n"
                     er += 1
-    await kk.edit(f"** Victory {done} 🗿, Defeat {er} Asuw.**")
+    await kk.edit(f"** KATA KATA HARI INI TERKIRIM KE {done} SOSMED, KUOTA ABIS GAGAL TERKIRIM KE {er} SOSMED.**")
 
 
 @ayra_cmd(pattern="[gG][u][c][a][s][t]( (.*)|$)", fullsudo=False)
@@ -131,7 +131,7 @@ async def gblacker(event, type_):
     chat_id = int(args[1]) if len(args) == 2 else event.chat_id
     if type_ == "add":
         add_gblacklist(chat_id)
-        await event.eor(f"**Menyimpan Pacar Kedalam BL-GCAST**\n`{chat_id}`")
+        await event.eor(f"**KATA KATA HARI INI TERSIMPAN**\n`{chat_id}`")
     elif type_ == "remove":
         rem_gblacklist(chat_id)
-        await event.eor(f"**Terbang dari BL-GCAST**\n`{chat_id}`")
+        await event.eor(f"**KATA KATA HARI INI TERHAPUS**\n`{chat_id}`")
