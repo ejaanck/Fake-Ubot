@@ -21,7 +21,7 @@ from . import append_or_update, owner_and_sudos
 OWNER = ayra_bot.full_name
 
 MSG = f"""
-**Key-Userbot**
+**Fake-Ubot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Owner**: [{OWNER}](tg://user?id={ayra_bot.uid})
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
@@ -31,9 +31,9 @@ IN_BTTS = [
     [
         Button.url(
             "Repository",
-            url="https://github.com/jonesroot/Key-Userbot",
+            url="https://github.com/ejaanck/Fake-Ubot",
         ),
-        Button.url("Support", url="https://t.me/keysupport1"),
+        Button.url("Support", url="https://t.me/jxsupport"),
     ]
 ]
 
@@ -91,11 +91,11 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                 res = [
                     await event.builder.article(
                         title="ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​",
-                        url="https://t.me/kynansupport​",
-                        description="© Key",
+                        url="https://t.me/jxsupport",
+                        description="© Fake",
                         text=MSG,
                         thumb=InputWebDocument(
-                            "https://graph.org/file/02f9ca4617cec58377b9d.jpg",
+                            "https://graph.org/file/b6621b343e748f680b94b.jpg",
                             0,
                             "image/jpeg",
                             [],
@@ -126,7 +126,7 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                                 title="Unhandled Exception has Occured!",
                                 text=error_text(),
                                 buttons=Button.url(
-                                    "Report", "https://t.me/keysupport1"
+                                    "Report", "https://t.me/jxsupport"
                                 ),
                             )
                         ]
