@@ -5,7 +5,7 @@ COPY installer.sh .
 RUN bash installer.sh
 
 # changing workdir
-WORKDIR "/root/Key-Userbot"
+WORKDIR "/root/Fake-Ubot"
 
 # start the bot.
 CMD ["bash", "start"]
