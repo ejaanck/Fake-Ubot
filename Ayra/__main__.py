@@ -65,7 +65,7 @@ def main():
 
     suc_msg = """
   -------------------------------------------------------
-                      Assistant Key
+                      Fake Ubot
   -------------------------------------------------------
     """
 
@@ -92,7 +92,7 @@ def main():
         pass
 
     LOGS.info(
-        f"Took {time_formatter((time.time() - start_time)*1000)} to start Key-Userbot"
+        f"Took {time_formatter((time.time() - start_time)*1000)} to start Fake-Ubot"
     )
     LOGS.info(suc_msg)
 
