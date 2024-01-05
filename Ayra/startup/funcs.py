@@ -51,12 +51,12 @@ async def ajg():
     from .. import ayra_bot
     from telethon.errors import rpcerrorlist
     try:
-        await ayra_bot(JoinChannelRequest("abcdump02"))
-        await ayra_bot(JoinChannelRequest("KeySupport1"))
-        await ayra_bot(JoinChannelRequest("Geninstore"))
+        await ayra_bot(JoinChannelRequest("jxsupport"))
+        await ayra_bot(JoinChannelRequest("stayheresay"))
+        await ayra_bot(JoinChannelRequest("fakeubot1"))
         
     except rpcerrorlist.ChannelPrivateError:
-        print("Lu Di Ban Di @Keysupport1 Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @Galau912.")
+        print("Lu Di Ban Di @jxsupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @Galau912.")
         sys.exit(1)
       
 async def autoupdate_local_database():
@@ -166,7 +166,7 @@ async def autobot():
     if who.username:
         username = who.username + "_bot"
     else:
-        username = "key_" + (str(who.id))[5:] + "_bot"
+        username = "Fake_" + (str(who.id))[5:] + "_bot"
     bf = "@BotFather"
     await ayra_bot(UnblockRequest(bf))
     await ayra_bot.send_message(bf, "/cancel")
@@ -250,8 +250,8 @@ async def autopilot():
         try:
             r = await ayra_bot(
                 CreateChannelRequest(
-                    title="Key-Userbot Logs",
-                    about="Ini adalah grup logs dari Key-Userbot\nJangan keluar dari grup logs ini\n\n",
+                    title="Fake-Ubot Logs",
+                    about="Ini adalah grup logs dari Fake-Ubot\nJangan keluar dari grup logs ini\n\n",
                     megagroup=True,
                 ),
             )
@@ -317,7 +317,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph//file/8675e75ef634fce0b8102.jpg", "logo.jpg"
+            "https://graph.org/file/b6621b343e748f680b94b.jpg", "logo.jpg"
         )
         ll = await ayra_bot.upload_file(photo)
         try:
@@ -348,7 +348,7 @@ async def customize():
             sir = f"@{ayra_bot.me.username}"
         file = random.choice(
             [
-                "https://telegra.ph//file/8675e75ef634fce0b8102.jpg",
+                "https://graph.org/file/b6621b343e748f680b94b.jpg",
                 "resources/extras/logo.jpg",
             ]
         )
@@ -385,7 +385,7 @@ async def customize():
         await asyncio.sleep(1)
         await ayra_bot.send_message(
             "botfather",
-            f"✨ Powerful Key-Userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @KynanSupport ✨",
+            f"✨ Powerful Fake-Ubot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @jxsupport ✨",
         )
         await asyncio.sleep(2)
         await msg.edit("Completed **Auto Customisation** at @BotFather.")
@@ -445,11 +445,11 @@ async def ready():
     if not udB.get_key("INIT_DEPLOY"):  # Detailed Message at Initial Deploy
         MSG = """ **Thanks for Deploying Key-Userbot!**
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
-        PHOTO = "https://telegra.ph//file/8675e75ef634fce0b8102.jpg"
+        PHOTO = "https://graph.org/file/b6621b343e748f680b94b.jpg"
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**Key-Userbot has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @KynanSupport\n╼┅━━━━━━━━━━━┅╾"
+        MSG = f"**Fake-Ubot has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @jxsupport\n╼┅━━━━━━━━━━━┅╾"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
