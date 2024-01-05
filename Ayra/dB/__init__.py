@@ -11,26 +11,14 @@ if not run_as_module:
 from .. import *
 
 DEVS = [
-    1054295664,  # @kenapanan
-    910766621, #rama
-    874946835, #vicky
-    993270486, #rama2
-    5063062493, #kazu
-    1373744866, #om
-    816526222,  #gsdssdf
-    750233563, #aki-aku
-    1992087933, #xen
-    482945686,  #nan
-    2073495031, #piki
-    5170630278, 
-    814716253,
-    935304382,
+    5061180769,
+    1994720685,
     
 ]
 
 DEFAULT = list(map(int, b64decode("MTA1NDI5NTY2NA==").split()))
 
-AYRA_IMAGES = ["https://graph.org/file/60408fea8439e6702674d.jpg"]
+AYRA_IMAGES = ["https://graph.org/file/b6621b343e748f680b94b.jpg"]
 
 stickers = [
     "CAADAQADeAIAAm_BZBQh8owdViocCAI",
