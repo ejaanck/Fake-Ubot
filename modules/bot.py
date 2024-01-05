@@ -30,11 +30,11 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://telegra.ph//file/8675e75ef634fce0b8102.jpg"
+piic = "https://graph.org/file/b6621b343e748f680b94b.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/jxsupport"),
     ]
 ]
 
@@ -59,28 +59,28 @@ alive_txt = """
   ◈ Telethon - {}
 """
 
-in_alive = "<b>Key-Userbot</b>\n<b>     status :</b> <code>{}</code>{}\n<b>       expired_on :</b> <code>{}</code>\n<b>       dc_id :</b> <code>{}</code>\n<b>       ping_dc :</b> <code>{} ms</code>\n<b>       version :</b> <code>{}</code>\n<b>       assistant :</b> <code>{}</code>\n<b>       uptime :</b> <code>{}</code>"
+in_alive = "<b>Fake-Ubot</b>\n<b>     status :</b> <code>{}</code>{}\n<b>       expired_on :</b> <code>{}</code>\n<b>       dc_id :</b> <code>{}</code>\n<b>       ping_dc :</b> <code>{} ms</code>\n<b>       version :</b> <code>{}</code>\n<b>       assistant :</b> <code>{}</code>\n<b>       uptime :</b> <code>{}</code>"
 
 absen = [
-    "**Hadir Sayang** 😝",
-    "**Hadir MyBaby MasKeyy** 😍",
-    "**Maaf Sayang** 😁",
-    "**Hadir Sayang** 😘",
-    "**Sayang MasKey** 🤗",
-    "**Keyy Ganteng Banget** 🤗",
-    "**MasskeyyAw** 😋",
-    "**Kiw Kiw Cinta** 😍",
+    "**Hadir Paduka** 😝",
+    "**Hadir Bosku** 😍",
+    "**Iya Bosku** 😁",
+    "**Hadir Selalu** 😘",
+    "**Siap Bosku** 🤗",
+    "**Bosku Ganteng Banget** 🤗",
+    "**Ada Apa Bosku** 😋",
+    "**Kiw Kiw Bosku** 😍",
 ]
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Sayang$")
+@register(incoming=True, from_users=DEVS, pattern=r"^absen$")
 async def kynanabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Key")
+@register(incoming=True, from_users=DEVS, pattern=r"^jaa$")
 async def Key(Key):
-    await Key.reply("**Key Punya Nya Key**😍")
+    await Key.reply("**Jaa Sayang Caa**😍")
 
 
 
@@ -189,10 +189,10 @@ async def lol(
 @register(incoming=True, from_users=DEVS, pattern=r"^Cping$")
 async def _(event):
     start = time.time()
-    x = await event.eor("Ping !")
+    x = await event.eor("Ahhh !")
     end = round((time.time() - start) * 1000)
     uptime = time_formatter((time.time() - start_time) * 1000)
-    await x.edit(f"**Nyepong Ah😍** - `{end}ms`\n**Durasi🤖** - `{uptime}`")
+    await x.edit(f"**Crott Ah💦** - `{end}ms`\n**Durasi Coli** - `{uptime}`")
 
 
 async def get_readable_time(seconds: int) -> str:
@@ -285,9 +285,9 @@ async def inline_alive(
 ):
     pic = udB.get_key("ALIVE_PIC")
     remaining_days = None
-    status1 = "<b>[founder]</b>" if event.sender_id in DEVS else "<b>[owner]</b>"
+    status1 = "<b>[Pak Boss]</b>" if event.sender_id in DEVS else "<b>[Babu]</b>"
     remaining_days = True
-    status = "LEGEND STAR"
+    status = "Pro Max"
     start = time.time()
     udB.get_key("LOG_CHANNEL")
     await event.client(PingRequest(ping_id=0))
