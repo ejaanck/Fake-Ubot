@@ -41,7 +41,7 @@ async def gcast(event):
         msg = await event.get_reply_message()
     else:
         return await eor(
-            event.eor("`Masukin Kata Kata Hari Ini..`")
+            event, "`Masukin Kata Kata Hari Ini..`")
         )
     kk = await event.eor("`SABAR LAGI NGIRIM KATA KATA HARI INI`")
     er = 0
