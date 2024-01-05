@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://telegra.ph//file/8675e75ef634fce0b8102.jpg">
+  <img src="https://graph.org/file/b6621b343e748f680b94b.jpg">
 </p>
 <h1 align="center">
-  <b>Key - Userbot</b>
+  <b>Fake - Ubot</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram</b>
 
-<a href="https://github.com/jonesroot/Key-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/jonesroot/Key-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/jonesroot/Key-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/jonesroot/Key-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/jonesroot/Key-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/jonesroot/Key-Userbot?&logo=github)](https://github.com/jonesroot/Key-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/jonesroot/Key-Userbot?&logo=github)](https://github.com/jonesroot/Key-Userbot/stargazers)
+<a href="https://github.com/ejaanck/Fake-Ubot/commits"> <img src="https://img.shields.io/github/last-commit/ejaanck/Fake-Ubot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ejaanck/Fake-Ubot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/ejaanck/Fake-Ubot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/ejaanck/Fake-Ubot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/ejaanck/Fake-Ubot?&logo=github)](https://github.com/ejaanck/Fake-Ubot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/ejaanck/Fake-Ubot?&logo=github)](https://github.com/ejaanck/Fake-Ubot/stargazers)
 ----
 
 ## Disclaimer
@@ -51,9 +51,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy di VPS</b></summary>
 <br>
 
- • `git clone https://github.com/jonesroot/Key-Userbot`
+ • `git clone https://github.com/ejaanck/Fake-Ubot`
 
- • `cd Key-Userbot`
+ • `cd Fake-Ubot`
 
  • `bash installer.sh`
 
@@ -74,9 +74,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy Via Docker</b></summary>
 <br>
 
- • `git clone https://github.com/jonesroot/Key-Userbot`
+ • `git clone https://github.com/ejaanck/Fake-Ubot`
 
- • `cd Key-Userbot`
+ • `cd Fake-Ubot`
 
  • `nano .env`
   - Jika anda menggunakan mongodb maka isi pada .env MONGO_URI tetapi jika anda menggunakan redis maka isi REDIS_URI dan REDIS_PASSWORD
@@ -97,7 +97,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 • Silakan isi vars yang diperlukan API_ID, API_HASH, SESSION, HEROKU_API dan HEROKU_APP_NAME
 
 <h3 align="center">Click The Button</h3>
-<a align="center" href="https://dashboard.heroku.com/new?template=https://github.com/jonesroot/Key-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a align="center" href="https://dashboard.heroku.com/new?template=https://github.com/ejaanck/Fake-Ubot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 </details>
@@ -117,4 +117,4 @@ Key-Userbot is licensed under [GNU Affero General Public License](https://www.gn
 * [MarshalX](https://github.com/MarshalX) for [PyTgCalls.](https://github.com/MarshalX/tgcalls)
 
 > Recode By
-* [![Rizky Ananda M.](https://img.shields.io/static/v1?label=Rizky-Ananda&message=M&color=critical)](https://t.me/rizzvbss)
+* [![Jaa.](https://img.shields.io/static/v1?label=Jaa&message=M&color=critical)](https://t.me/jaahilang)
