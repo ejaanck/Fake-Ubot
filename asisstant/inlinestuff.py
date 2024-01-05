@@ -14,7 +14,7 @@ from . import *
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/ejaanck/Fake-Ubot"),
-        Button.url("• Support •", url="t.me/jxsupport),
+        Button.url("• Support •", url="t.me/jxsupport"),
     ],
 ]
 
